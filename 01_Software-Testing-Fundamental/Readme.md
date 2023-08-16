@@ -1,0 +1,5 @@
+## Ringkasan Materi Software Testing Fundamental
+
+1. Software Testing diperlukan dan menjadi penting karena setiap produk software yang akan digunakan perlu dicek apakah software benar dan tepat sesuai dengan keinginan user serta memiliki kinerja dan performa sesuai dengan kriteria desain. 
+2. Secara garis besar terdapat tiga tipe dari testing antara lain Functional test untuk kebutuhan fungsional dari software, non functional test untuk fitur pendukung dari software seperti performa dan scalability, dan yang terakhir ada maintenance yaitu pengetesan yang dilakukan setelah perilisan software.
+3. Testing software sendiri terbagi menjadi 4 level antara lain unit testing, integration testing, system testing, dan acceptance testing. Dimana peran QA sendiri berperan pada system testing dimana software sudah terintegrasi dan semua fitur sudah terpasang.
