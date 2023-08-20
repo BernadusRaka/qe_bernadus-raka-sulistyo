@@ -1,0 +1,4 @@
+## Software Tester as a Career Path 
+- Tugas seorang Software Tester adalah Memahami requirement software, membuat dan menjalankan test case, mencari bug, dan beberapa aktivitas team 
+- Software tester membutuhkan dua skill utama dan skill non teknis. Skill teknis yang dibutuhkan oleh Software tester antara lain Unix/Linux basic commands, menggunakan test case management tools, menggunakan tracking management tools, dan penggunaan automation testing tools 
+- Seorang software tester dapat menjalani dua karir yaitu karir sebagai Quality Engineer dan dapat menjalani karir di bidang pengembangan perangkat lunak seperti performance tester, penetration tester, system analyst, dan scrum master
