@@ -1,5 +1,7 @@
-Versioning Control with Git 
+Testing Documentation
 
-- Git dan Github adalah Versioning Control System yang digunakan dalam pembuatan atau penyusunan suatu kode sumber atau perangkat lunak 
-- Versioning Control System adalah suatu perangkat lunak yang dapat digunakan untuk berkolaborasi dalam membuat suatu proyek. Pada kasus seorang software tester VCS digunakan untuk menyusun kode sumber bersama - sama 
-- Versioning Control System bersifat terdistribusi secara remote pada setiap pelaku project.
+- Testing Documentation adalah suatu dokumen yang memuat test case dan test scenario yang digunakan untuk membantu seorang software tester menjalankan pengetesan perangkat lunak.
+
+- Test Scenario dapat diartikan sebagai sebuah metode untuk menyusun skenario yang akan dilakukan untuk mengetes sebuah software. test scenario sendiri dapat memuat beberapa test case. Singkatnya Test scenario menjawab pertanyaan "apa saja yang akan dites?"
+
+- Test case dapat diartikan sbagai serangkaian tindakan yang dilakukan untuk mengetahui apakah suatu fitur aplikasi dapat berfungsi atau berjalan dengan baik. test case sendiri menjawab pertanyaan mengenai "bagaimana perangkat lunak akan dites?"
