@@ -1,5 +1,7 @@
-Versioning Control with Git 
+Agile Testing 
 
-- Git dan Github adalah Versioning Control System yang digunakan dalam pembuatan atau penyusunan suatu kode sumber atau perangkat lunak 
-- Versioning Control System adalah suatu perangkat lunak yang dapat digunakan untuk berkolaborasi dalam membuat suatu proyek. Pada kasus seorang software tester VCS digunakan untuk menyusun kode sumber bersama - sama 
-- Versioning Control System bersifat terdistribusi secara remote pada setiap pelaku project.
+- SDLC (Software Development Life Cycle) adalah proses sistematis untuk merancang, mengembangkan, menguji, dan memelihara perangkat lunak. Tahapannya meliputi perencanaan, analisis, desain, pengembangan, pengujian, implementasi, dan pemeliharaan. Tujuannya adalah menghasilkan perangkat lunak yang memenuhi kebutuhan pengguna dan bisnis.
+
+- Agile Testing adalah pendekatan pengujian yang terintegrasi dalam metodologi Agile, menekankan kolaborasi, pengujian kontinu, pengujian otomatis, respons terhadap perubahan, pengujian fungsional dan non-fungsional, umpan balik pengguna, dan mengikuti prinsip-prinsip Agile Testing Manifesto .
+
+- Agile Testing Manifesto menekankan kolaborasi, perangkat lunak yang berfungsi, kolaborasi dengan pelanggan, dan respons terhadap perubahan sebagai prinsip utama dalam pengujian perangkat lunak dalam konteks pengembangan berbasis Agile.
