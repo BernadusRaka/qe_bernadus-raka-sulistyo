@@ -1,0 +1,282 @@
+{
+  "id": "786e3ff2-dbfe-4889-a9b8-376e4843ed68",
+  "version": "2.0",
+  "name": "SepulsaTesting",
+  "url": "https://www.sepulsa.com",
+  "tests": [{
+    "id": "d4e18e5d-3d6e-461a-81ef-42f6dc6755fd",
+    "name": "LoginUsingValidCredential",
+    "commands": [{
+      "id": "0f399830-464a-4cbf-b367-be14e7f97361",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3069e1b-49b1-42ee-bd24-6cd07fbe7b65",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98d606bc-8def-4b87-80d8-6387afa8fd92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='button_signin_home']/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13a890b4-1008-407b-a787-1907b447bbb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6176a615-2c59-4500-af31-d50b476cd8ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "\"registered_email\""
+    }, {
+      "id": "e0a0a538-ac78-4e3e-a0f8-d17422e7e1d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[2]/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81f34695-b8d4-46e6-83e6-c489e7b28159",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[2]/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span/div[2]/input", "xpath:position"]
+      ],
+      "value": "\"valid_password\""
+    }, {
+      "id": "3f7a468c-2aac-496a-8765-a43291b98160",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit_login",
+      "targets": [
+        ["id=submit_login", "id"],
+        ["css=#submit_login", "css:finder"],
+        ["xpath=//button[@id='submit_login']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69485d96-3f14-48f5-a480-4b6063d268ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2a5e13f-4d2d-40fd-8e83-e76934eab34d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "68e237f9-fba2-404a-adfe-04e4f1653b92",
+    "name": "ChooseProduct",
+    "commands": [{
+      "id": "ac804ab0-950d-46fa-a869-229e9099ca13",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd0e377d-52fe-4197-9389-e5036f2559d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eee4f635-0f22-406a-8fd3-87c888ee89f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Pulsa path:nth-child(1)",
+      "targets": [
+        ["css=#Pulsa path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e810c829-7724-410d-a209-76efde412c96",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e0297d6-853c-4b45-ad5c-34fe85089ae1",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "081323882058"
+    }, {
+      "id": "3c379105-2af9-4afd-b752-f94572d1596b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Telkomsel Rp5.000",
+      "targets": [
+        ["id=Telkomsel Rp5.000", "id"],
+        ["css=#Telkomsel\\ Rp5\\.000", "css:finder"],
+        ["xpath=//div[@id='Telkomsel Rp5.000']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c020d3f4-2a00-46f1-9e26-dac5deeb15fc",
+    "name": "FailedPayment",
+    "commands": [{
+      "id": "56cab6ad-2133-4f72-b92c-a721d13815c7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06d34892-5e68-47ea-b4e1-5d143e82c63b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a790fa2-c5f8-4491-8104-5c70c5c2e70c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Pulsa path:nth-child(1)",
+      "targets": [
+        ["css=#Pulsa path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2023406f-e89d-43c2-bcc2-5a3827020d8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1ef06aa-49b1-4dbb-9d60-de1d5d744a7f",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "081323882059"
+    }, {
+      "id": "a4580416-3bcd-4e5c-9a67-5b30a8e9dc87",
+      "comment": "",
+      "command": "click",
+      "target": "id=Telkomsel Rp5.000",
+      "targets": [
+        ["id=Telkomsel Rp5.000", "id"],
+        ["css=#Telkomsel\\ Rp5\\.000", "css:finder"],
+        ["xpath=//div[@id='Telkomsel Rp5.000']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18b25efd-3b30-40c7-be14-568bd279f794",
+      "comment": "",
+      "command": "click",
+      "target": "css=#submit_payment > .MuiButton-label",
+      "targets": [
+        ["css=#submit_payment > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='submit_payment']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bayar Sekarang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d00c1e1a-e9d8-47d1-a2e5-1d4f28c0f400",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d4e18e5d-3d6e-461a-81ef-42f6dc6755fd"]
+  }],
+  "urls": ["https://www.sepulsa.com/"],
+  "plugins": []
+}
