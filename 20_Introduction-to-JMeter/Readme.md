@@ -1,0 +1,3 @@
+**Introduction to JMeter**
+
+JMeter (Apache JMeter) adalah sebuah perangkat lunak sumber terbuka yang digunakan untuk melakukan pengujian beban dan pengujian kinerja pada aplikasi web. Ini memungkinkan pengguna untuk mensimulasikan beban pengguna yang besar dan mengukur kinerja aplikasi, seperti respons time, throughput, dan sebagainya. JMeter dapat digunakan untuk mengidentifikasi masalah kinerja dan kerentanan dalam aplikasi web
