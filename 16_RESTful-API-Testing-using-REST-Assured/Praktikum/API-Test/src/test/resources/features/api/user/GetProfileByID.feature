@@ -1,3 +1,4 @@
+@GetProfile
 Feature: Get User Profile
   As a User
   I want to get complete profile using valid user ID
